@@ -1,0 +1,83 @@
+:root {
+    --color-1: #E63946;
+    --color-2: #F1FAEE;
+    --color-3: #A8DADC;
+    --color-4: #457B9D;
+    --color-5: #1D3557;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    background-color: var(--color-1);
+    z-index: 2;
+}
+
+#navbar a {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1rem 4vw 1rem 0;
+    padding: auto 0;
+    color: var(--color-2);
+    text-decoration: none;
+}
+
+
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    padding: 15;
+    text-align: center;
+    padding-top: 50vh;
+    background-color: var(--color-5);
+}
+
+#welcome-section h1 {
+    font-size: 5rem;
+    color: var(--color-2)
+}
+
+#welcome-section p {
+    margin-top: 5vh;
+    font-size: 2rem;
+    color: var(--color-1);
+}
+
+#projects {
+    margin-top: 2vh;
+    background-color: var(--color-5);
+    text-align: center;
+}
+
+#projects h2 {
+    padding-top: 5vh;
+    color: var(--color-2)
+}
+
+.project-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5vh;
+}
+
+.project-tile {
+    display: grid;
+    justify-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.project-tile img {
+    width: 500px;
+    height: 400px;
+    object-fit: fill;
+}
