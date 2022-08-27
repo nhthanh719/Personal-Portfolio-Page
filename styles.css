@@ -81,3 +81,61 @@
     height: 400px;
     object-fit: fill;
 }
+
+#contact {
+    height: 50vh;
+    background-color: var(--color-3);
+    text-align: center;
+
+}
+
+#contact h2 {
+    padding-top: 5vh;
+}
+
+#contact-link {
+    font-size: 3rem;
+}
+
+#contact-link a {
+    color: var(--color-5);
+}
+
+#contact i {
+    margin: 5vh;
+}
+
+@media (max-width: 1000px) {
+    .project-tile img {
+        width: 80%;
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 768px) {
+    #welcome-section h1 {
+        font-size: 3rem;
+        color: var(--color-2)
+    }
+
+    #welcome-section p {
+        margin-top: 5vh;
+        font-size: 1rem;
+        color: var(--color-1);
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    #navbar {
+        text-align: center;
+    }
+
+    #navbar a {
+        font-size: 1rem;
+
+    }
+    
+}
